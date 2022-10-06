@@ -1,6 +1,6 @@
 
 class Node {
-    friend void print(Node *h);
+    friend void *print(Node *h);
     friend class List;
     int data;
     Node *next;
