@@ -1,10 +1,10 @@
 #include <iostream>
 #include "list.h"
 
-void print(Node *h) {
+void *print(Node *h) {
     if (h == nullptr) {
             std::cout << "head is null\n";
-            return;
+            return nullptr;
         }
         Node *n = h;
         while(n != nullptr) {
