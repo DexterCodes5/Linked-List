@@ -38,9 +38,9 @@ int main(){
     l->reverse();
     l->print();
     delete l;
-    
+    std::cout << "\n";
     List *l2 = new List{};
-    
+    std::cout << l2->begin();
     l2->insert(3,5);
     //l2->insert(3,2);
     for (unsigned i = 0; i < 5; i++)
